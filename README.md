@@ -9,8 +9,6 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<br>
-
 ## 🛠 Tecnologias
 
 - [Node.js](https://nodejs.org/en/)
