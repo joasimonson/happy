@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "45815c07-8c58-4827-867c-95cb24ba8668",
+		"name": "Happy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Orphanages",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Lar das meninas",
+									"type": "text"
+								},
+								{
+									"key": "latitude",
+									"value": "-27.2184339",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "-49.629111",
+									"type": "text"
+								},
+								{
+									"key": "about",
+									"value": "Sobre o orfanato",
+									"type": "text"
+								},
+								{
+									"key": "instructions",
+									"value": "Venha visitar",
+									"type": "text"
+								},
+								{
+									"key": "opening_hours",
+									"value": "Das 8h até as 19h",
+									"type": "text"
+								},
+								{
+									"key": "open_on_weekends",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"/C:/Users/joasi/Desktop/baixados.png",
+										"/C:/Users/joasi/Desktop/images.jpg"
+									]
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3333/orphanages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"orphanages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3333/orphanages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"orphanages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3333/orphanages/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"orphanages",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
