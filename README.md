@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/22df9982941b41aeb7a671a7d292ab2b)](https://www.codacy.com/gh/joasimonson/happy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joasimonson/happy&amp;utm_campaign=Badge_Grade)
+
 <h1 align="center">
     <p>Happy</p>
 </h1>
